@@ -18,6 +18,16 @@ body {
 h1, h2, h3 {
      font-family: var(--secondary-font)
 }
+/* navbar */
+#navbar {
+    background-color: var(--primary-color);
+   
+}
+#navbar .logo {
+    width:30px;
+}
+
+
 /* .container .row{
 border: 2px solid black ;
 }
