@@ -18,10 +18,13 @@ body {
 h1, h2, h3 {
      font-family: var(--secondary-font)
 }
-.container .row{
+/* .container .row{
 border: 2px solid black ;
 }
 .col-12 {
     background-color: #7a9fc2;
     border: 2px solid white;
 }
+#navbar-Nav {
+    justify-content: end;
+} */
