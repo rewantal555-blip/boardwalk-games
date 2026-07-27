@@ -16,8 +16,14 @@ body {
 
 }
 h1, h2, h3 {
-     font-family: var(--secondary-font)
+     font-family: var(--secondary-font);
+     text-transform: uppercase;
 }
+.section {
+    margin:2rem 0;
+}
+
+
 /* navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -25,6 +31,10 @@ h1, h2, h3 {
 }
 #navbar .logo {
     width:30px;
+}
+/* heading */
+#header .lead {
+    font-family: var(--secondary-font);
 }
 
 
