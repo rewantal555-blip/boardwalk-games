@@ -10,7 +10,7 @@
  --highlight-color:#416a8e;        /* blue */
  --light-hightlight-color:#7a9fc2;    /* light blue */
 }  
-
+/* Global styles */
 body {
     font-family: var(--primary-font);
 
@@ -21,6 +21,9 @@ h1, h2, h3 {
 }
 .section {
     margin:2rem 0;
+}
+.sub-heading-color {
+color: var(--highlight-color);
 }
 
 
