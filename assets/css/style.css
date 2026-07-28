@@ -39,6 +39,10 @@ color: var(--highlight-color);
 #header .lead {
     font-family: var(--secondary-font);
 }
+/* services */
+.card-text {
+    min-height:120px;
+}
 
 
 /* .container .row{
