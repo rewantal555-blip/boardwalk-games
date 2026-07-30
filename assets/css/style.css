@@ -125,6 +125,12 @@ color: var(--secondary-color);
 #contact .table-dark *{
     background-color: transparent;
 } 
+/* events */
+#event #hour  {
+    background-color: var(--highlight-color);
+    color: white;
+   
+} 
 
 
 /* .container .row{
@@ -192,6 +198,28 @@ border: 2px solid black ;
         min-height: 180px;
     }
 } 
+/* events */
+@media screen and (max-width:576px) {
+    #event .table-wrap {
+    overflow-x: auto;
+    width: 100%;
+}
+#event .table {
+width: 320px;
+border-collapse: collapse;
+}
+}
+/* @media screen and (max-width:768px) {
+    table,thead,tbody,th,td,tr {
+        display: block;
+    }
+    thead {
+        display: none;
+    }
+    td {
+        margin-bottom: 10px;
+    }
+} */
 /* contact section */
 /* @media screen and (max-width: 576px) {
     
