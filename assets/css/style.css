@@ -129,8 +129,12 @@ color: var(--secondary-color);
 #event #hour  {
     background-color: var(--highlight-color);
     color: white;
+     width: fit-content;
+   margin: 0 auto;
+   padding: 0 10px;
    
 } 
+
 
 
 /* .container .row{
@@ -199,7 +203,7 @@ border: 2px solid black ;
     }
 } 
 /* events */
-@media screen and (max-width:576px) {
+@media screen and (max-width:376px) {
     #event .table-wrap {
     overflow-x: auto;
     width: 100%;
