@@ -1,3 +1,5 @@
+
+
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 
@@ -116,6 +118,7 @@ h2 {
 #contact .social-links a svg {
   color: var(--light-hightlight-color);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 #contact .social-links svg:hover {
@@ -133,21 +136,14 @@ h2 {
 #event #hour {
   background-color: var(--highlight-color);
   color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-/* .container .row{
-border: 2px solid black ;
-}
-.col-12 {
-    background-color: #7a9fc2;
-    border: 2px solid white;
-}
-#navbar-Nav {
-    justify-content: end;
-} */
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   /* Make all service cards the sam e height for consistency */
