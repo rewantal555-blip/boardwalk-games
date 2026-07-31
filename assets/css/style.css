@@ -16,7 +16,7 @@ html {
 }
 body {
   font-family: var(--primary-font);
-  padding-top: 57.24px ; /* add padding-top to push the body down the fixed navbar */
+  padding-top: 57.24px; /* add padding-top to push the body down the fixed navbar */
 }
 
 h1,
